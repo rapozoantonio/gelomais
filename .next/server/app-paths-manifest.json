@@ -1,0 +1,5 @@
+{
+  "/index2-onepage/page": "app/index2-onepage/page.js",
+  "/not-found": "app/not-found.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js"
+}
