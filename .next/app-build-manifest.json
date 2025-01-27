@@ -15,6 +15,41 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/index2-onepage/page.js"
+    ],
+    "/index3-onepage/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/index3-onepage/page.js"
+    ],
+    "/index4-onepage/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/index4-onepage/page.js"
+    ],
+    "/index5-onepage/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/index5-onepage/page.js"
+    ],
+    "/index6-onepage/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/index6-onepage/page.js"
+    ],
+    "/index7-onepage/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/index7-onepage/page.js"
+    ],
+    "/index8-onepage/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/index8-onepage/page.js"
+    ],
+    "/index9-onepage/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/index9-onepage/page.js"
     ]
   }
 }
