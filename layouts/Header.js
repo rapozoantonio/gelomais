@@ -90,54 +90,50 @@ const DefaultHeader = ({ onePage }) => {
 
 const Header2 = ({ onePage }) => {
   const menus = [
-    { id: 1, href: "home", title: "Home" },
-    { id: 3, href: "services", title: "services" },
-    { id: 8, href: "about", title: "about" },
-    { id: 2, href: "pricing", title: "pricing" },
-    { id: 5, href: "testimonials", title: "testimonials" },
-    { id: 6, href: "blog", title: "blog" },
+    { id: 2, href: "empresa", title: "A Empresa" },
+    { id: 3, href: "produtos", title: "Produtos" },
+    { id: 4, href: "onde-comprar", title: "Onde Comprar" },
+    { id: 5, href: "fazer-pedido", title: "Fazer Pedido" },
+    { id: 6, href: "seja-revendedor", title: "Seja Revendedor" },
+    { id: 9, href: "faqs", title: "FAQs" },
   ];
   return (
     <header className="main-header no-border">
-      {/*Header-Upper*/}
+      {/* Header-Upper */}
       <div className="header-upper">
         <div className="container container-1520 clearfix">
           <div className="header-inner py-15 rel d-flex align-items-center">
+            {/* Logo */}
             <div className="logo-outer">
               <div className="logo">
                 <Link href="/">
                   <img
-                    src="assets/images/logos/logo2.png"
-                    alt="Logo"
-                    title="Logo"
+                    src="/images/logos/gelomais-color.png"
+                    alt="GeloMais"
+                    title="GeloMais"
+                    style={{ maxWidth: 150 }}
                   />
                 </Link>
               </div>
             </div>
+
+            {/* Main Menu */}
             <div className="nav-outer ms-lg-auto clearfix">
-              {/* Main Menu */}
               <nav className="main-menu navbar-expand-lg">
                 <Nav onePage={onePage} menus={menus} />
               </nav>
-              {/* Main Menu End*/}
             </div>
-            {/* Nav Search */}
-            <div className="nav-search ms-xl-2 ms-4 me-lg-auto py-10">
-              <NavSearch />
-            </div>
-            {/* Menu Button */}
-            <div className="menu-btns ms-lg-auto">
-              <Link href="cantact" className="light-btn">
-                Support
-              </Link>
-              <Link href="contact" className="theme-btn">
-                Register <i className="far fa-arrow-right" />
+            {/* CTA Buttons */}
+            <div className="menu-btns ms-lg-auto d-flex gap-2">
+              {/* "Register" -> "Fazer Pedido" */}
+              <Link href="#fazer-pedido" className="theme-btn">
+                Fazer Pedido <i className="far fa-arrow-right" />
               </Link>
             </div>
           </div>
         </div>
       </div>
-      {/*End Header Upper*/}
+      {/* End Header Upper */}
     </header>
   );
 };
@@ -783,7 +779,7 @@ const HeaderNotFound = ({ onePage }) => {
 };
 
 const Nav = ({
-  logo = "assets/images/logos/logo2.png",
+  logo = "assets/images/logos/logo2GeloMais.png",
   dark,
   onePage,
   menus,

@@ -37,7 +37,7 @@ body {
   --base-font: 'Inter', sans-serif;
   --heading-font: 'Work Sans', sans-serif;
   --primary-color: #0055FF;
-  --secondary-color: #FEC458;
+  --secondary-color: #FFB800;
   --heading-color: #001726;
   --base-color: #696969;
   --lighter-color: #F1F5FF;
@@ -622,7 +622,7 @@ input[type=checkbox], input[type=radio] {
   --primary-color: #396154; }
 
 .color-two {
-  --primary-color: #FEC458; }
+  --primary-color: #FFB800; }
 
 .color-three {
   --primary-color: #8F00FF; }
@@ -3668,7 +3668,7 @@ a.theme-btn {
   border-radius: 50%;
   -webkit-filter: blur(500px);
   filter: blur(500px);
-  background: #FEC458; }
+  background: #FFB800; }
 
 /*******************************************************/
 /******************** ## Fancy Box ********************/
@@ -9060,7 +9060,7 @@ a.theme-btn {
     .management-bottom .check-list-item.four {
       top: 68%;
       right: -7%;
-      background: #FEC458;
+      background: #FFB800;
       -webkit-transform: rotate(14deg);
       -ms-transform: rotate(14deg);
       transform: rotate(14deg); }

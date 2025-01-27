@@ -34,12 +34,7 @@ const DefaultFooter = () => {
         <div className="footer-newsletter text-white">
           <div className="row align-items-center justify-content-between">
             <div className="col-lg-5">
-              <div
-                className="logo-part"
-                data-aos="fade-left"
-                data-aos-duration={1500}
-                data-aos-offset={50}
-              >
+              <div className="logo-part" data-aos="fade-left" data-aos-duration={1500} data-aos-offset={50}>
                 <div className="logo mb-10">
                   <Link href="/">
                     <img src="assets/images/logos/logo-white.png" alt="Logo" />
@@ -49,12 +44,7 @@ const DefaultFooter = () => {
               </div>
             </div>
             <div className="col-xl-6 col-lg-7">
-              <div
-                className="form-part"
-                data-aos="fade-right"
-                data-aos-duration={1500}
-                data-aos-offset={50}
-              >
+              <div className="form-part" data-aos="fade-right" data-aos-duration={1500} data-aos-offset={50}>
                 <h5>Subscribe Our Newsletter</h5>
                 <form className="newsletter-form mt-15" action="#">
                   <input type="email" placeholder="Email Address" required="" />
@@ -70,17 +60,9 @@ const DefaultFooter = () => {
       <div className="container">
         <div className="row justify-content-between">
           <div className="col-xl-3 col-lg-4 col-sm-6">
-            <div
-              className="footer-widget widget-about"
-              data-aos="fade-up"
-              data-aos-duration={1500}
-              data-aos-offset={50}
-            >
+            <div className="footer-widget widget-about" data-aos="fade-up" data-aos-duration={1500} data-aos-offset={50}>
               <h6 className="footer-title">About Company</h6>
-              <p>
-                Doloremque laudantium tota aperiam eaque abillo inventore
-                architect beatae vitae dicta sunt explicabos
-              </p>
+              <p>Doloremque laudantium tota aperiam eaque abillo inventore architect beatae vitae dicta sunt explicabos</p>
               <div className="social-style-one">
                 <a href="#">
                   <i className="fab fa-twitter" />
@@ -108,16 +90,13 @@ const DefaultFooter = () => {
               <h6 className="footer-title">Contact</h6>
               <ul>
                 <li>
-                  <i className="fal fa-map-marker-alt" /> 55 Main Street, 2nd
-                  block Melbourne, Australia
+                  <i className="fal fa-map-marker-alt" /> 55 Main Street, 2nd block Melbourne, Australia
                 </li>
                 <li>
-                  <i className="fal fa-envelope" />{" "}
-                  <a href="mailto:support@gmail.com">support@gmail.com</a>
+                  <i className="fal fa-envelope" /> <a href="mailto:support@gmail.com">support@gmail.com</a>
                 </li>
                 <li>
-                  <i className="fal fa-phone" />{" "}
-                  <a href="callto:+0001234455">+000 (123) 44 55</a>
+                  <i className="fal fa-phone" /> <a href="callto:+0001234455">+000 (123) 44 55</a>
                 </li>
               </ul>
             </div>
@@ -212,8 +191,7 @@ const DefaultFooter = () => {
                 data-aos-offset={50}
               >
                 <p>
-                  Copyright @2024, <Link href="/">Akpager </Link> All Rights
-                  Reserved
+                  Copyright @2024, <Link href="/">Akpager </Link> All Rights Reserved
                 </p>
               </div>
             </div>
@@ -256,60 +234,25 @@ const Footer2 = () => {
     <footer
       className="main-footer footer-two rel z-1 bgs-cover"
       style={{
-        backgroundImage: "url(assets/images/backgrounds/footer-shape.png)",
+        backgroundImage: 'url("/images/backgrounds/footer-shape.png")',
       }}
     >
-      <div className="container">
-        <div className="footer-top-newsletter pt-120 rpt-100 mb-120 rmb-100">
-          <div className="row justify-content-center">
-            <div className="col-xl-5 col-lg-7 mx-xl-3">
-              <div
-                className="section-title mb-40 text-white text-center"
-                data-aos="fade-up"
-                data-aos-duration={1500}
-                data-aos-offset={50}
-              >
-                <h2>
-                  Join Our Newsletter to Get <span>Updates</span>
-                </h2>
-                <p>We Provide Best Pricing package to grow your lead capture</p>
-              </div>
-            </div>
-            <div className="col-xl-7 col-lg-8">
-              <form
-                className="newsletter-form style-three"
-                action="#"
-                data-aos="fade-up"
-                data-aos-delay={200}
-                data-aos-duration={1500}
-                data-aos-offset={50}
-              >
-                <input type="email" placeholder="Email Address" required="" />
-                <button type="submit">
-                  Register <i className="far fa-arrow-right" />
-                </button>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="container container-1450">
-        <div className="footer-inner">
-          <div className="row justify-content-between">
+      <div className="container container-1450 mt-3 mb-3">
+        <div className="footer-inner mt-3 mb-3">
+          <div className="row justify-content-between mt-3 mb-3">
+            {/* Logo */}
             <div className="col-xl-2 col-lg-12 col-sm-6">
-              <div
-                className="footer-widget widget-logo"
-                data-aos="fade-up"
-                data-aos-duration={1500}
-                data-aos-offset={50}
-              >
+              <div className="footer-widget widget-logo" data-aos="fade-up" data-aos-duration={1500} data-aos-offset={50}>
                 <div className="footer-logo">
                   <Link href="/">
-                    <img src="assets/images/logos/logo-white2.png" alt="Logo" />
+                    {/* Update this logo path as needed */}
+                    <img src="/images/logos/gelomais-white.png" alt="GeloMais" style={{ maxWidth: 120 }} />
                   </Link>
                 </div>
               </div>
             </div>
+
+            {/* Links Column 1 */}
             <div className="col-xl-2 col-lg-3 col-sm-4 col-6">
               <div
                 className="footer-widget widget-links"
@@ -318,23 +261,25 @@ const Footer2 = () => {
                 data-aos-duration={1500}
                 data-aos-offset={50}
               >
-                <h6 className="footer-title">Resources</h6>
+                <h6 className="footer-title">A Empresa</h6>
                 <ul>
                   <li>
-                    <Link href="shop">Product</Link>
+                    <Link href="#empresa">Sobre Nós</Link>
                   </li>
                   <li>
-                    <Link href="services">Services</Link>
+                    <Link href="#seja-revendedor">Seja Revendedor</Link>
                   </li>
                   <li>
-                    <Link href="about">About Us</Link>
+                    <Link href="#faqs">Perguntas Frequentes</Link>
                   </li>
                   <li>
-                    <Link href="services">Benefits</Link>
+                    <Link href="#contato">Contato</Link>
                   </li>
                 </ul>
               </div>
             </div>
+
+            {/* Links Column 2 */}
             <div className="col-xl-2 col-lg-3 col-sm-4 col-6">
               <div
                 className="footer-widget widget-links"
@@ -343,23 +288,25 @@ const Footer2 = () => {
                 data-aos-duration={1500}
                 data-aos-offset={50}
               >
-                <h6 className="footer-title">Quick Link</h6>
+                <h6 className="footer-title">Navegação</h6>
                 <ul>
                   <li>
-                    <Link href="services">Features</Link>
+                    <Link href="#home">Home</Link>
                   </li>
                   <li>
-                    <Link href="pricing">Pricing Plan</Link>
+                    <Link href="#produtos">Produtos</Link>
                   </li>
                   <li>
-                    <Link href="about">Best Program</Link>
+                    <Link href="#onde-comprar">Onde Comprar</Link>
                   </li>
                   <li>
-                    <Link href="contact">Press Kit</Link>
+                    <Link href="#fazer-pedido">Fazer Pedido</Link>
                   </li>
                 </ul>
               </div>
             </div>
+
+            {/* Links Column 3 */}
             <div className="col-xl-2 col-lg-3 col-sm-4 col-6">
               <div
                 className="footer-widget widget-links"
@@ -368,23 +315,25 @@ const Footer2 = () => {
                 data-aos-duration={1500}
                 data-aos-offset={50}
               >
-                <h6 className="footer-title">Company</h6>
+                <h6 className="footer-title">Suporte</h6>
                 <ul>
                   <li>
-                    <Link href="about">About</Link>
+                    <Link href="#contato">Atendimento</Link>
                   </li>
                   <li>
-                    <Link href="team">Team Member</Link>
+                    <Link href="tel:+554333373899">Telefone: (43) 3337-3899</Link>
                   </li>
                   <li>
-                    <Link href="about">Reviews</Link>
+                    <Link href="#contato">WhatsApp</Link>
                   </li>
                   <li>
-                    <Link href="blog">Latest News</Link>
+                    <Link href="#faqs">Dúvidas</Link>
                   </li>
                 </ul>
               </div>
             </div>
+
+            {/* Links Column 4: Social */}
             <div className="col-xl-2 col-lg-3 col-sm-4 col-6">
               <div
                 className="footer-widget widget-links"
@@ -393,19 +342,25 @@ const Footer2 = () => {
                 data-aos-duration={1500}
                 data-aos-offset={50}
               >
-                <h6 className="footer-title">Social</h6>
+                <h6 className="footer-title">Redes Sociais</h6>
                 <ul>
                   <li>
-                    <Link href="contact">Facebook</Link>
+                    <Link href="https://facebook.com" target="_blank">
+                      Facebook
+                    </Link>
                   </li>
                   <li>
-                    <Link href="contact">Twitter</Link>
+                    <Link href="https://instagram.com" target="_blank">
+                      Instagram
+                    </Link>
                   </li>
                   <li>
-                    <Link href="contact">Instagram</Link>
+                    <Link href="https://linkedin.com" target="_blank">
+                      LinkedIn
+                    </Link>
                   </li>
                   <li>
-                    <Link href="contact">LinkedIn</Link>
+                    <Link href="#blog">Blog</Link>
                   </li>
                 </ul>
               </div>
@@ -413,14 +368,15 @@ const Footer2 = () => {
           </div>
         </div>
       </div>
+
+      {/* Footer Bottom */}
       <div className="container">
         <div className="footer-bottom py-15">
           <div className="row align-items-center">
             <div className="col-xl-4 col-lg-6">
               <div className="copyright-text pt-10 text-lg-start text-center">
                 <p>
-                  Copyright @2024, <Link href="/">Akpager </Link> All Rights
-                  Reserved
+                  ©2025, <Link href="/">GeloMais</Link> - Todos os Direitos Reservados
                 </p>
               </div>
             </div>
@@ -428,21 +384,22 @@ const Footer2 = () => {
               <div className="footer-bottom-menu text-lg-end text-center">
                 <ul>
                   <li>
-                    <Link href="faqs">Faqs</Link>
+                    <Link href="#faqs">FAQs</Link>
                   </li>
                   <li>
-                    <Link href="about">Setting</Link>
+                    <Link href="#empresa">Política</Link>
                   </li>
                   <li>
-                    <Link href="about">Privacy</Link>
+                    <Link href="#contato">Contato</Link>
                   </li>
                   <li>
-                    <Link href="contact">Contact</Link>
+                    <Link href="#onde-comprar">Onde Comprar</Link>
                   </li>
                 </ul>
               </div>
             </div>
           </div>
+
           {/* Scroll Top Button */}
           <button className="scroll-top scroll-to-target" data-target="html">
             <span className="far fa-angle-double-up" />
@@ -460,27 +417,16 @@ const Footer3 = () => {
         <div className="for-middle-border pb-50">
           <div className="row justify-content-between">
             <div className="col-xl-6 col-lg-7">
-              <div
-                className="footer-widget widget-about"
-                data-aos="fade-up"
-                data-aos-duration={1500}
-                data-aos-offset={50}
-              >
+              <div className="footer-widget widget-about" data-aos="fade-up" data-aos-duration={1500} data-aos-offset={50}>
                 <div className="section-title text-white">
                   <h2>We’re Now Available On Store Download Our Apps</h2>
                   <p>No credit card requirement it’s full free for all</p>
                 </div>
                 <div className="footer-btns">
-                  <a
-                    href="https://play.google.com/store/apps"
-                    className="theme-btn"
-                  >
+                  <a href="https://play.google.com/store/apps" className="theme-btn">
                     Play Store <i className="fab fa-google-play" />
                   </a>
-                  <a
-                    href="https://www.apple.com/app-store/"
-                    className="theme-btn style-three"
-                  >
+                  <a href="https://www.apple.com/app-store/" className="theme-btn style-three">
                     Apple Store <i className="fab fa-apple" />
                   </a>
                 </div>
@@ -548,8 +494,7 @@ const Footer3 = () => {
                 data-aos-offset={50}
               >
                 <p>
-                  Copyright @2024, <Link href="/">Akpager </Link> All Rights
-                  Reserved
+                  Copyright @2024, <Link href="/">Akpager </Link> All Rights Reserved
                 </p>
               </div>
             </div>
@@ -581,21 +526,12 @@ const Footer4 = () => {
     <footer className="main-footer footer-four bg-black rel z-1">
       <div className="container pb-45">
         <div className="footer-cta pt-50 pb-20 text-white">
-          <div
-            className="logo"
-            data-aos="fade-left"
-            data-aos-duration={1500}
-            data-aos-offset={50}
-          >
+          <div className="logo" data-aos="fade-left" data-aos-duration={1500} data-aos-offset={50}>
             <Link href="/">
               <img src="assets/images/logos/logo4.png" alt="Logo" />
             </Link>
           </div>
-          <h3
-            data-aos="fade-right"
-            data-aos-duration={1500}
-            data-aos-offset={50}
-          >
+          <h3 data-aos="fade-right" data-aos-duration={1500} data-aos-offset={50}>
             Ready to Enroll Our Course?
           </h3>
           <Link
@@ -622,12 +558,7 @@ const Footer4 = () => {
               <h3>Subscribe Newsletter</h3>
               <p>Please enter your email and get your answer</p>
               <form className="newsletter-form style-two mt-30" action="#">
-                <input
-                  id="email-address"
-                  type="email"
-                  placeholder="Email Address"
-                  required=""
-                />
+                <input id="email-address" type="email" placeholder="Email Address" required="" />
                 <button type="submit">
                   <i className="far fa-arrow-right" />
                 </button>
@@ -710,55 +641,37 @@ const Footer4 = () => {
               <ul>
                 <li>
                   <Link href="project-details">
-                    <img
-                      src="assets/images/footer/gallery1.png"
-                      alt="Gallery"
-                    />
+                    <img src="assets/images/footer/gallery1.png" alt="Gallery" />
                     <i className="far fa-arrow-right" />
                   </Link>
                 </li>
                 <li>
                   <Link href="project-details">
-                    <img
-                      src="assets/images/footer/gallery2.png"
-                      alt="Gallery"
-                    />
+                    <img src="assets/images/footer/gallery2.png" alt="Gallery" />
                     <i className="far fa-arrow-right" />
                   </Link>
                 </li>
                 <li>
                   <Link href="project-details">
-                    <img
-                      src="assets/images/footer/gallery3.png"
-                      alt="Gallery"
-                    />
+                    <img src="assets/images/footer/gallery3.png" alt="Gallery" />
                     <i className="far fa-arrow-right" />
                   </Link>
                 </li>
                 <li>
                   <Link href="project-details">
-                    <img
-                      src="assets/images/footer/gallery4.png"
-                      alt="Gallery"
-                    />
+                    <img src="assets/images/footer/gallery4.png" alt="Gallery" />
                     <i className="far fa-arrow-right" />
                   </Link>
                 </li>
                 <li>
                   <Link href="project-details">
-                    <img
-                      src="assets/images/footer/gallery5.png"
-                      alt="Gallery"
-                    />
+                    <img src="assets/images/footer/gallery5.png" alt="Gallery" />
                     <i className="far fa-arrow-right" />
                   </Link>
                 </li>
                 <li>
                   <Link href="project-details">
-                    <img
-                      src="assets/images/footer/gallery6.png"
-                      alt="Gallery"
-                    />
+                    <img src="assets/images/footer/gallery6.png" alt="Gallery" />
                     <i className="far fa-arrow-right" />
                   </Link>
                 </li>
@@ -776,8 +689,7 @@ const Footer4 = () => {
                 data-aos-offset={50}
               >
                 <p>
-                  Copyright @2024, <Link href="/">Akpager </Link> All Rights
-                  Reserved
+                  Copyright @2024, <Link href="/">Akpager </Link> All Rights Reserved
                 </p>
               </div>
             </div>
@@ -820,21 +732,12 @@ const Footer5 = () => {
     <footer className="main-footer footer-four bg-black rel z-1">
       <div className="container pb-45">
         <div className="footer-cta pt-50 pb-20 text-white">
-          <div
-            className="logo"
-            data-aos="fade-left"
-            data-aos-duration={1500}
-            data-aos-offset={50}
-          >
+          <div className="logo" data-aos="fade-left" data-aos-duration={1500} data-aos-offset={50}>
             <Link href="/">
               <img src="assets/images/logos/logo4.png" alt="Logo" />
             </Link>
           </div>
-          <h3
-            data-aos="fade-right"
-            data-aos-duration={1500}
-            data-aos-offset={50}
-          >
+          <h3 data-aos="fade-right" data-aos-duration={1500} data-aos-offset={50}>
             Ready to Enroll Our Course?
           </h3>
           <Link
@@ -861,12 +764,7 @@ const Footer5 = () => {
               <h3>Subscribe Newsletter</h3>
               <p>Please enter your email and get your answer</p>
               <form className="newsletter-form style-two mt-30" action="#">
-                <input
-                  id="email-address"
-                  type="email"
-                  placeholder="Email Address"
-                  required=""
-                />
+                <input id="email-address" type="email" placeholder="Email Address" required="" />
                 <button type="submit">
                   <i className="far fa-arrow-right" />
                 </button>
@@ -949,55 +847,37 @@ const Footer5 = () => {
               <ul>
                 <li>
                   <Link href="project-details">
-                    <img
-                      src="assets/images/footer/gallery1.png"
-                      alt="Gallery"
-                    />
+                    <img src="assets/images/footer/gallery1.png" alt="Gallery" />
                     <i className="far fa-arrow-right" />
                   </Link>
                 </li>
                 <li>
                   <Link href="project-details">
-                    <img
-                      src="assets/images/footer/gallery2.png"
-                      alt="Gallery"
-                    />
+                    <img src="assets/images/footer/gallery2.png" alt="Gallery" />
                     <i className="far fa-arrow-right" />
                   </Link>
                 </li>
                 <li>
                   <Link href="project-details">
-                    <img
-                      src="assets/images/footer/gallery3.png"
-                      alt="Gallery"
-                    />
+                    <img src="assets/images/footer/gallery3.png" alt="Gallery" />
                     <i className="far fa-arrow-right" />
                   </Link>
                 </li>
                 <li>
                   <Link href="project-details">
-                    <img
-                      src="assets/images/footer/gallery4.png"
-                      alt="Gallery"
-                    />
+                    <img src="assets/images/footer/gallery4.png" alt="Gallery" />
                     <i className="far fa-arrow-right" />
                   </Link>
                 </li>
                 <li>
                   <Link href="project-details">
-                    <img
-                      src="assets/images/footer/gallery5.png"
-                      alt="Gallery"
-                    />
+                    <img src="assets/images/footer/gallery5.png" alt="Gallery" />
                     <i className="far fa-arrow-right" />
                   </Link>
                 </li>
                 <li>
                   <Link href="project-details">
-                    <img
-                      src="assets/images/footer/gallery6.png"
-                      alt="Gallery"
-                    />
+                    <img src="assets/images/footer/gallery6.png" alt="Gallery" />
                     <i className="far fa-arrow-right" />
                   </Link>
                 </li>
@@ -1015,8 +895,7 @@ const Footer5 = () => {
                 data-aos-offset={50}
               >
                 <p>
-                  Copyright @2024, <Link href="/">Akpager </Link> All Rights
-                  Reserved
+                  Copyright @2024, <Link href="/">Akpager </Link> All Rights Reserved
                 </p>
               </div>
             </div>
@@ -1071,12 +950,7 @@ const Footer6 = () => {
               </div>
             </div>
             <div className="col-lg-6">
-              <div
-                className="form-part"
-                data-aos="fade-right"
-                data-aos-duration={1500}
-                data-aos-offset={50}
-              >
+              <div className="form-part" data-aos="fade-right" data-aos-duration={1500} data-aos-offset={50}>
                 <form className="newsletter-form" action="#">
                   <input type="email" placeholder="Email Address" required="" />
                   <button type="submit">
@@ -1093,17 +967,9 @@ const Footer6 = () => {
       <div className="container">
         <div className="row justify-content-between">
           <div className="col-xl-3 col-lg-4 col-sm-6">
-            <div
-              className="footer-widget widget-about"
-              data-aos="fade-up"
-              data-aos-duration={1500}
-              data-aos-offset={50}
-            >
+            <div className="footer-widget widget-about" data-aos="fade-up" data-aos-duration={1500} data-aos-offset={50}>
               <h6 className="footer-title">About Company</h6>
-              <p>
-                Doloremque laudantium tota aperiam eaque abillo inventore
-                architect beatae vitae dicta sunt explicabos
-              </p>
+              <p>Doloremque laudantium tota aperiam eaque abillo inventore architect beatae vitae dicta sunt explicabos</p>
               <div className="social-style-one">
                 <a href="#">
                   <i className="fab fa-twitter" />
@@ -1131,16 +997,13 @@ const Footer6 = () => {
               <h6 className="footer-title">Contact</h6>
               <ul>
                 <li>
-                  <i className="fal fa-map-marker-alt" /> 55 Main Street, 2nd
-                  block Melbourne, Australia
+                  <i className="fal fa-map-marker-alt" /> 55 Main Street, 2nd block Melbourne, Australia
                 </li>
                 <li>
-                  <i className="fal fa-envelope" />{" "}
-                  <a href="mailto:support@gmail.com">support@gmail.com</a>
+                  <i className="fal fa-envelope" /> <a href="mailto:support@gmail.com">support@gmail.com</a>
                 </li>
                 <li>
-                  <i className="fal fa-phone" />{" "}
-                  <a href="callto:+0001234455">+000 (123) 44 55</a>
+                  <i className="fal fa-phone" /> <a href="callto:+0001234455">+000 (123) 44 55</a>
                 </li>
               </ul>
             </div>
@@ -1235,8 +1098,7 @@ const Footer6 = () => {
                 data-aos-offset={50}
               >
                 <p>
-                  Copyright @2024, <Link href="/">Akpager </Link> All Rights
-                  Reserved
+                  Copyright @2024, <Link href="/">Akpager </Link> All Rights Reserved
                 </p>
               </div>
             </div>
@@ -1277,17 +1139,11 @@ const Footer7 = () => {
         <div className="footer-cta-two bgc-lighter mb-80 rel z-1">
           <div className="row align-items-center justify-content-between">
             <div className="col-lg-7">
-              <div
-                className="section-title rmb-25"
-                data-aos="fade-left"
-                data-aos-duration={1500}
-                data-aos-offset={50}
-              >
+              <div className="section-title rmb-25" data-aos="fade-left" data-aos-duration={1500} data-aos-offset={50}>
                 <h2>Looking For Professional Website Builders ?</h2>
                 <p>
-                  At vero eos et accusamus et iusto odio dignissimos ducimus
-                  quiy blanditiise praesentium voluptatum deleniti atque
-                  corrupti dolorese
+                  At vero eos et accusamus et iusto odio dignissimos ducimus quiy blanditiise praesentium voluptatum deleniti
+                  atque corrupti dolorese
                 </p>
               </div>
             </div>
@@ -1313,28 +1169,15 @@ const Footer7 = () => {
       <div className="container">
         <div className="row justify-content-between">
           <div className="col-xl-3 col-lg-4 col-sm-6">
-            <div
-              className="footer-widget widget-about"
-              data-aos="fade-up"
-              data-aos-duration={1500}
-              data-aos-offset={50}
-            >
+            <div className="footer-widget widget-about" data-aos="fade-up" data-aos-duration={1500} data-aos-offset={50}>
               <div className="footer-logo mb-25">
                 <Link href="/">
                   <img src="assets/images/logos/logo-white-4.png" alt="Logo" />
                 </Link>
               </div>
-              <p>
-                At vero eos et accusamus iusto odio dignissimos ducimus
-                blanditiise
-              </p>
+              <p>At vero eos et accusamus iusto odio dignissimos ducimus blanditiise</p>
               <form className="newsletter-form style-two mt-25" action="#">
-                <input
-                  id="email-address"
-                  type="email"
-                  placeholder="Email Address"
-                  required=""
-                />
+                <input id="email-address" type="email" placeholder="Email Address" required="" />
                 <button type="submit">
                   <i className="far fa-arrow-right" />
                 </button>
@@ -1352,16 +1195,13 @@ const Footer7 = () => {
               <h6 className="footer-title">Contact</h6>
               <ul>
                 <li>
-                  <i className="fal fa-map-marker-alt" /> 55 Main Street, 2nd
-                  block Melbourne, Australia
+                  <i className="fal fa-map-marker-alt" /> 55 Main Street, 2nd block Melbourne, Australia
                 </li>
                 <li>
-                  <i className="fal fa-envelope" />{" "}
-                  <a href="mailto:support@gmail.com">support@gmail.com</a>
+                  <i className="fal fa-envelope" /> <a href="mailto:support@gmail.com">support@gmail.com</a>
                 </li>
                 <li>
-                  <i className="fal fa-phone" />{" "}
-                  <a href="callto:+0001234455">+000 (123) 44 55</a>
+                  <i className="fal fa-phone" /> <a href="callto:+0001234455">+000 (123) 44 55</a>
                 </li>
               </ul>
             </div>
@@ -1451,8 +1291,7 @@ const Footer7 = () => {
             <div className="col-xl-4 col-lg-6">
               <div className="copyright-text pt-10 text-lg-start text-center">
                 <p>
-                  Copyright @2024, <Link href="/">Akpager </Link> All Rights
-                  Reserved
+                  Copyright @2024, <Link href="/">Akpager </Link> All Rights Reserved
                 </p>
               </div>
             </div>
@@ -1498,25 +1337,13 @@ const Footer8 = () => {
         <div className="footer-newsletter text-white">
           <div className="row align-items-center justify-content-between">
             <div className="col-lg-6">
-              <div
-                className="section-title pt-15 rmb-35"
-                data-aos="fade-left"
-                data-aos-duration={1500}
-                data-aos-offset={50}
-              >
-                <span className="subtitle d-inline-block mb-5">
-                  Get more updates to join us
-                </span>
+              <div className="section-title pt-15 rmb-35" data-aos="fade-left" data-aos-duration={1500} data-aos-offset={50}>
+                <span className="subtitle d-inline-block mb-5">Get more updates to join us</span>
                 <h3>Subscribe our Newsletter</h3>
               </div>
             </div>
             <div className="col-lg-6">
-              <div
-                className="form-part"
-                data-aos="fade-right"
-                data-aos-duration={1500}
-                data-aos-offset={50}
-              >
+              <div className="form-part" data-aos="fade-right" data-aos-duration={1500} data-aos-offset={50}>
                 <form className="newsletter-form" action="#">
                   <label htmlFor="email-address">
                     <i className="fas fa-envelope" />
@@ -1536,21 +1363,13 @@ const Footer8 = () => {
       <div className="container">
         <div className="row justify-content-between">
           <div className="col-xl-3 col-lg-4 col-sm-6">
-            <div
-              className="footer-widget widget-about"
-              data-aos="fade-up"
-              data-aos-duration={1500}
-              data-aos-offset={50}
-            >
+            <div className="footer-widget widget-about" data-aos="fade-up" data-aos-duration={1500} data-aos-offset={50}>
               <div className="footer-logo mb-30">
                 <Link href="/">
                   <img src="assets/images/logos/logo8.png" alt="Logo" />
                 </Link>
               </div>
-              <p>
-                Doloremque laudantium tota aperiam eaque abillo inventore
-                architect beatae vitae dicta sunt explicabos
-              </p>
+              <p>Doloremque laudantium tota aperiam eaque abillo inventore architect beatae vitae dicta sunt explicabos</p>
               <div className="social-style-one">
                 <a href="#">
                   <i className="fab fa-twitter" />
@@ -1578,16 +1397,13 @@ const Footer8 = () => {
               <h6 className="footer-title">Contact</h6>
               <ul>
                 <li>
-                  <i className="fal fa-map-marker-alt" /> 55 Main Street, 2nd
-                  block Melbourne, Australia
+                  <i className="fal fa-map-marker-alt" /> 55 Main Street, 2nd block Melbourne, Australia
                 </li>
                 <li>
-                  <i className="fal fa-envelope" />{" "}
-                  <a href="mailto:support@gmail.com">support@gmail.com</a>
+                  <i className="fal fa-envelope" /> <a href="mailto:support@gmail.com">support@gmail.com</a>
                 </li>
                 <li>
-                  <i className="fal fa-phone" />{" "}
-                  <a href="callto:+0001234455">+000 (123) 44 55</a>
+                  <i className="fal fa-phone" /> <a href="callto:+0001234455">+000 (123) 44 55</a>
                 </li>
               </ul>
             </div>
@@ -1682,8 +1498,7 @@ const Footer8 = () => {
                 data-aos-offset={50}
               >
                 <p>
-                  Copyright @2024, <Link href="/">Akpager </Link> All Rights
-                  Reserved
+                  Copyright @2024, <Link href="/">Akpager </Link> All Rights Reserved
                 </p>
               </div>
             </div>
@@ -1728,22 +1543,13 @@ const Footer9 = () => {
         <div className="for-middle-border pb-50">
           <div className="row justify-content-between">
             <div className="col-lg-5 col-md-7">
-              <div
-                className="footer-widget widget-about"
-                data-aos="fade-up"
-                data-aos-duration={1500}
-                data-aos-offset={50}
-              >
+              <div className="footer-widget widget-about" data-aos="fade-up" data-aos-duration={1500} data-aos-offset={50}>
                 <div className="section-title">
                   <h2>Get Our Newsletters</h2>
                 </div>
                 <form action="#">
                   <div className="newsletter-form bgc-lighter">
-                    <input
-                      type="email"
-                      placeholder="Email Address"
-                      required=""
-                    />
+                    <input type="email" placeholder="Email Address" required="" />
                     <button type="submit">
                       <b>
                         Sign Up <i className="far fa-arrow-right" />
@@ -1752,9 +1558,7 @@ const Footer9 = () => {
                   </div>
                   <div className="radio-part">
                     <input id="update-news" type="radio" />
-                    <label htmlFor="update-news">
-                      Get 7 days updates news &amp; offers
-                    </label>
+                    <label htmlFor="update-news">Get 7 days updates news &amp; offers</label>
                   </div>
                 </form>
               </div>
@@ -1853,8 +1657,7 @@ const Footer9 = () => {
                 data-aos-offset={50}
               >
                 <p>
-                  Copyright @2024, <Link href="/">Akpager </Link> All Rights
-                  Reserved
+                  Copyright @2024, <Link href="/">Akpager </Link> All Rights Reserved
                 </p>
               </div>
             </div>
